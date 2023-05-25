@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235A8B8B2A1F998C003ACA68 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 235A8B8A2A1F998C003ACA68 /* .gitignore */; };
 		237C16F72A1F94BA0038E7D7 /* ThaliaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C16F62A1F94BA0038E7D7 /* ThaliaApp.swift */; };
 		237C16F92A1F94BA0038E7D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C16F82A1F94BA0038E7D7 /* ContentView.swift */; };
 		237C16FB2A1F94BB0038E7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237C16FA2A1F94BB0038E7D7 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		235A8B8A2A1F998C003ACA68 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		237C16F32A1F94BA0038E7D7 /* Thalia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thalia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		237C16F62A1F94BA0038E7D7 /* ThaliaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaliaApp.swift; sourceTree = "<group>"; };
 		237C16F82A1F94BA0038E7D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		237C16EA2A1F94BA0038E7D7 = {
 			isa = PBXGroup;
 			children = (
+				235A8B8A2A1F998C003ACA68 /* .gitignore */,
 				237C16F52A1F94BA0038E7D7 /* Thalia */,
 				237C17062A1F94BB0038E7D7 /* ThaliaTests */,
 				237C17102A1F94BB0038E7D7 /* ThaliaUITests */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				237C16FE2A1F94BB0038E7D7 /* Preview Assets.xcassets in Resources */,
+				235A8B8B2A1F998C003ACA68 /* .gitignore in Resources */,
 				237C16FB2A1F94BB0038E7D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
