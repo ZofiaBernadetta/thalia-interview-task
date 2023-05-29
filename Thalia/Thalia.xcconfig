@@ -1,0 +1,8 @@
+//
+//  Thalia.xcconfig
+//  Thalia
+//
+//  Created by Zofia Drabek on 29.05.23.
+//
+
+SAMPLE_CODE_DISAMBIGUATOR=${DEVELOPMENT_TEAM}

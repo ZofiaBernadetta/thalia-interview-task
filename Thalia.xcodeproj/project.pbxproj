@@ -9,43 +9,25 @@
 /* Begin PBXBuildFile section */
 		235A8B8B2A1F998C003ACA68 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 235A8B8A2A1F998C003ACA68 /* .gitignore */; };
 		237C16F72A1F94BA0038E7D7 /* ThaliaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C16F62A1F94BA0038E7D7 /* ThaliaApp.swift */; };
-		237C16F92A1F94BA0038E7D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C16F82A1F94BA0038E7D7 /* ContentView.swift */; };
 		237C16FB2A1F94BB0038E7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237C16FA2A1F94BB0038E7D7 /* Assets.xcassets */; };
 		237C16FE2A1F94BB0038E7D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237C16FD2A1F94BB0038E7D7 /* Preview Assets.xcassets */; };
-		237C17082A1F94BB0038E7D7 /* ThaliaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C17072A1F94BB0038E7D7 /* ThaliaTests.swift */; };
-		237C17122A1F94BB0038E7D7 /* ThaliaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C17112A1F94BB0038E7D7 /* ThaliaUITests.swift */; };
-		237C17142A1F94BB0038E7D7 /* ThaliaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C17132A1F94BB0038E7D7 /* ThaliaUITestsLaunchTests.swift */; };
+		23930E692A24F2E2001B736B /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 23930E682A24F2E2001B736B /* Search */; };
+		23930E6B2A24F2E8001B736B /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 23930E6A2A24F2E8001B736B /* Networking */; };
+		23930E712A2514AB001B736B /* AppConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 23930E702A2514AB001B736B /* AppConfiguration.json */; };
+		23930E732A252055001B736B /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23930E722A252055001B736B /* AppConfiguration.swift */; };
+		23930E762A252452001B736B /* Essentials in Frameworks */ = {isa = PBXBuildFile; productRef = 23930E752A252452001B736B /* Essentials */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		237C17042A1F94BB0038E7D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 237C16EB2A1F94BA0038E7D7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 237C16F22A1F94BA0038E7D7;
-			remoteInfo = Thalia;
-		};
-		237C170E2A1F94BB0038E7D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 237C16EB2A1F94BA0038E7D7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 237C16F22A1F94BA0038E7D7;
-			remoteInfo = Thalia;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		235A8B8A2A1F998C003ACA68 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		236BA6B32A24E590003EB3BD /* Package */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Package; sourceTree = "<group>"; };
 		237C16F32A1F94BA0038E7D7 /* Thalia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thalia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		237C16F62A1F94BA0038E7D7 /* ThaliaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaliaApp.swift; sourceTree = "<group>"; };
-		237C16F82A1F94BA0038E7D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		237C16FA2A1F94BB0038E7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		237C16FD2A1F94BB0038E7D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		237C17032A1F94BB0038E7D7 /* ThaliaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThaliaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		237C17072A1F94BB0038E7D7 /* ThaliaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaliaTests.swift; sourceTree = "<group>"; };
-		237C170D2A1F94BB0038E7D7 /* ThaliaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThaliaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		237C17112A1F94BB0038E7D7 /* ThaliaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaliaUITests.swift; sourceTree = "<group>"; };
-		237C17132A1F94BB0038E7D7 /* ThaliaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaliaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23930E702A2514AB001B736B /* AppConfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AppConfiguration.json; sourceTree = "<group>"; };
+		23930E722A252055001B736B /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		23930E742A2522CC001B736B /* Thalia.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Thalia.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,34 +35,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		237C17002A1F94BB0038E7D7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		237C170A2A1F94BB0038E7D7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				23930E762A252452001B736B /* Essentials in Frameworks */,
+				23930E6B2A24F2E8001B736B /* Networking in Frameworks */,
+				23930E692A24F2E2001B736B /* Search in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		236BA6AA2A24A553003EB3BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				237C16FA2A1F94BB0038E7D7 /* Assets.xcassets */,
+				237C16FC2A1F94BB0038E7D7 /* Preview Content */,
+				23930E702A2514AB001B736B /* AppConfiguration.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		237C16EA2A1F94BA0038E7D7 = {
 			isa = PBXGroup;
 			children = (
+				236BA6B32A24E590003EB3BD /* Package */,
 				235A8B8A2A1F998C003ACA68 /* .gitignore */,
 				237C16F52A1F94BA0038E7D7 /* Thalia */,
-				237C17062A1F94BB0038E7D7 /* ThaliaTests */,
-				237C17102A1F94BB0038E7D7 /* ThaliaUITests */,
 				237C16F42A1F94BA0038E7D7 /* Products */,
+				23930E672A24F2E2001B736B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				237C16F32A1F94BA0038E7D7 /* Thalia.app */,
-				237C17032A1F94BB0038E7D7 /* ThaliaTests.xctest */,
-				237C170D2A1F94BB0038E7D7 /* ThaliaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,10 +76,10 @@
 		237C16F52A1F94BA0038E7D7 /* Thalia */ = {
 			isa = PBXGroup;
 			children = (
+				23930E742A2522CC001B736B /* Thalia.xcconfig */,
 				237C16F62A1F94BA0038E7D7 /* ThaliaApp.swift */,
-				237C16F82A1F94BA0038E7D7 /* ContentView.swift */,
-				237C16FA2A1F94BB0038E7D7 /* Assets.xcassets */,
-				237C16FC2A1F94BB0038E7D7 /* Preview Content */,
+				23930E722A252055001B736B /* AppConfiguration.swift */,
+				236BA6AA2A24A553003EB3BD /* Resources */,
 			);
 			path = Thalia;
 			sourceTree = "<group>";
@@ -113,21 +92,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		237C17062A1F94BB0038E7D7 /* ThaliaTests */ = {
+		23930E672A24F2E2001B736B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				237C17072A1F94BB0038E7D7 /* ThaliaTests.swift */,
 			);
-			path = ThaliaTests;
-			sourceTree = "<group>";
-		};
-		237C17102A1F94BB0038E7D7 /* ThaliaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				237C17112A1F94BB0038E7D7 /* ThaliaUITests.swift */,
-				237C17132A1F94BB0038E7D7 /* ThaliaUITestsLaunchTests.swift */,
-			);
-			path = ThaliaUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,45 +115,14 @@
 			dependencies = (
 			);
 			name = Thalia;
+			packageProductDependencies = (
+				23930E682A24F2E2001B736B /* Search */,
+				23930E6A2A24F2E8001B736B /* Networking */,
+				23930E752A252452001B736B /* Essentials */,
+			);
 			productName = Thalia;
 			productReference = 237C16F32A1F94BA0038E7D7 /* Thalia.app */;
 			productType = "com.apple.product-type.application";
-		};
-		237C17022A1F94BB0038E7D7 /* ThaliaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 237C171A2A1F94BB0038E7D7 /* Build configuration list for PBXNativeTarget "ThaliaTests" */;
-			buildPhases = (
-				237C16FF2A1F94BB0038E7D7 /* Sources */,
-				237C17002A1F94BB0038E7D7 /* Frameworks */,
-				237C17012A1F94BB0038E7D7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				237C17052A1F94BB0038E7D7 /* PBXTargetDependency */,
-			);
-			name = ThaliaTests;
-			productName = ThaliaTests;
-			productReference = 237C17032A1F94BB0038E7D7 /* ThaliaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		237C170C2A1F94BB0038E7D7 /* ThaliaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 237C171D2A1F94BB0038E7D7 /* Build configuration list for PBXNativeTarget "ThaliaUITests" */;
-			buildPhases = (
-				237C17092A1F94BB0038E7D7 /* Sources */,
-				237C170A2A1F94BB0038E7D7 /* Frameworks */,
-				237C170B2A1F94BB0038E7D7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				237C170F2A1F94BB0038E7D7 /* PBXTargetDependency */,
-			);
-			name = ThaliaUITests;
-			productName = ThaliaUITests;
-			productReference = 237C170D2A1F94BB0038E7D7 /* ThaliaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,14 +136,6 @@
 				TargetAttributes = {
 					237C16F22A1F94BA0038E7D7 = {
 						CreatedOnToolsVersion = 14.3;
-					};
-					237C17022A1F94BB0038E7D7 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 237C16F22A1F94BA0038E7D7;
-					};
-					237C170C2A1F94BB0038E7D7 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 237C16F22A1F94BA0038E7D7;
 					};
 				};
 			};
@@ -223,8 +153,6 @@
 			projectRoot = "";
 			targets = (
 				237C16F22A1F94BA0038E7D7 /* Thalia */,
-				237C17022A1F94BB0038E7D7 /* ThaliaTests */,
-				237C170C2A1F94BB0038E7D7 /* ThaliaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,21 +164,8 @@
 			files = (
 				237C16FE2A1F94BB0038E7D7 /* Preview Assets.xcassets in Resources */,
 				235A8B8B2A1F998C003ACA68 /* .gitignore in Resources */,
+				23930E712A2514AB001B736B /* AppConfiguration.json in Resources */,
 				237C16FB2A1F94BB0038E7D7 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		237C17012A1F94BB0038E7D7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		237C170B2A1F94BB0038E7D7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,46 +176,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				237C16F92A1F94BA0038E7D7 /* ContentView.swift in Sources */,
+				23930E732A252055001B736B /* AppConfiguration.swift in Sources */,
 				237C16F72A1F94BA0038E7D7 /* ThaliaApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		237C16FF2A1F94BB0038E7D7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				237C17082A1F94BB0038E7D7 /* ThaliaTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		237C17092A1F94BB0038E7D7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				237C17122A1F94BB0038E7D7 /* ThaliaUITests.swift in Sources */,
-				237C17142A1F94BB0038E7D7 /* ThaliaUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		237C17052A1F94BB0038E7D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 237C16F22A1F94BA0038E7D7 /* Thalia */;
-			targetProxy = 237C17042A1F94BB0038E7D7 /* PBXContainerItemProxy */;
-		};
-		237C170F2A1F94BB0038E7D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 237C16F22A1F94BA0038E7D7 /* Thalia */;
-			targetProxy = 237C170E2A1F94BB0038E7D7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		237C17152A1F94BB0038E7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23930E742A2522CC001B736B /* Thalia.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -361,6 +247,7 @@
 		};
 		237C17162A1F94BB0038E7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23930E742A2522CC001B736B /* Thalia.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -420,8 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Thalia/Preview Content\"";
-				DEVELOPMENT_TEAM = 9VSYQ6QW3Z;
+				DEVELOPMENT_ASSET_PATHS = "\"Thalia/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -434,7 +320,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zofiadrabek.Thalia;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Thalia.zofiadrabek.${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -449,8 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Thalia/Preview Content\"";
-				DEVELOPMENT_TEAM = 9VSYQ6QW3Z;
+				DEVELOPMENT_ASSET_PATHS = "\"Thalia/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -463,87 +348,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zofiadrabek.Thalia;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Thalia.zofiadrabek.${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		237C171B2A1F94BB0038E7D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9VSYQ6QW3Z;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zofiadrabek.ThaliaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thalia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Thalia";
-			};
-			name = Debug;
-		};
-		237C171C2A1F94BB0038E7D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9VSYQ6QW3Z;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zofiadrabek.ThaliaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thalia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Thalia";
-			};
-			name = Release;
-		};
-		237C171E2A1F94BB0038E7D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9VSYQ6QW3Z;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zofiadrabek.ThaliaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Thalia;
-			};
-			name = Debug;
-		};
-		237C171F2A1F94BB0038E7D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9VSYQ6QW3Z;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zofiadrabek.ThaliaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Thalia;
 			};
 			name = Release;
 		};
@@ -568,25 +377,22 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		237C171A2A1F94BB0038E7D7 /* Build configuration list for PBXNativeTarget "ThaliaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				237C171B2A1F94BB0038E7D7 /* Debug */,
-				237C171C2A1F94BB0038E7D7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		237C171D2A1F94BB0038E7D7 /* Build configuration list for PBXNativeTarget "ThaliaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				237C171E2A1F94BB0038E7D7 /* Debug */,
-				237C171F2A1F94BB0038E7D7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23930E682A24F2E2001B736B /* Search */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Search;
+		};
+		23930E6A2A24F2E8001B736B /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		23930E752A252452001B736B /* Essentials */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Essentials;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 237C16EB2A1F94BA0038E7D7 /* Project object */;
 }
